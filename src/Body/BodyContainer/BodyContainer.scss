@@ -1,0 +1,24 @@
+#breadcrumbs {
+  display: flex;
+  font-size: 10px;
+
+  .crumb:last-child {
+    font-weight: bold;
+  }
+}
+
+#item-container {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+
+  #hero-image-container {
+    flex-basis: 60%;
+    text-align: center;
+    
+    #hero-image {
+      height: 430px;
+      width: 351px;
+    }
+  }
+}

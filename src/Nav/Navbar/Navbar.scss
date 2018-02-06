@@ -1,0 +1,22 @@
+.Navbar {
+  margin: 10px 0;
+  background-color: #000;
+  color: #fff;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+  .Nav-item:last-child {
+    background-color: navy;
+    border-left: 1px solid white;
+    
+    &:hover {
+      background-color: white;
+
+      a {
+        color: navy;
+      }
+    }
+  }
+  
+}

@@ -1,0 +1,16 @@
+#breadcrumbs {
+  display: flex;
+  font-size: 10px; }
+  #breadcrumbs .crumb:last-child {
+    font-weight: bold; }
+
+#item-container {
+  margin-top: 10px;
+  display: flex;
+  width: 100%; }
+  #item-container #hero-image-container {
+    flex-basis: 60%;
+    text-align: center; }
+    #item-container #hero-image-container #hero-image {
+      height: 430px;
+      width: 351px; }

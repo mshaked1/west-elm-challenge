@@ -1,0 +1,14 @@
+.Thumbnails {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+
+  .selected {
+    border-radius: 2px;
+    border: 2px solid black;
+  }
+
+  img:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,28 @@
+#expandable-item {
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-bottom: 1px solid lightgray;
+
+  &:last-child {
+    border: none;
+  }
+
+  .arrow {
+    box-sizing: border-box;
+    padding-top: 5px;
+    height: 15px;
+    width: 15px;
+  }
+
+  button {
+    border: none;
+  }
+
+  .expanded {
+    transition: height 1s ease;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}

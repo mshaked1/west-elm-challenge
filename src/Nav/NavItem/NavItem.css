@@ -1,0 +1,9 @@
+.Nav-item {
+  padding: 5px; }
+  .Nav-item a:link, .Nav-item a:visited {
+    color: white;
+    text-decoration: none; }
+  .Nav-item:hover {
+    background-color: white; }
+    .Nav-item:hover a {
+      color: black; }
